@@ -11,8 +11,8 @@ const Power = styled.div`
   padding: 0.3rem;
   border-radius: 50%;
   border: 1px solid #000;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;

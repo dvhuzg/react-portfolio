@@ -1,7 +1,7 @@
 import react, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
-import LogoComponents from "../subComponents/LogoComponents";
+import LogoComponent from "../subComponents/LogoComponent";
 import PowerButton from "../subComponents/PowerButton";
 import SocialIcons from "../subComponents/SocialIcons";
 import { YinYang } from "./AllSvgs";
@@ -128,7 +128,7 @@ const Main = () => {
       <DarkDiv click={click}></DarkDiv>
       <Container>
         <PowerButton />
-        <LogoComponents theme={click ? "dark" : "light"} />
+        <LogoComponent theme={click ? "dark" : "light"} />
         <SocialIcons theme={click ? "dark" : "light"} />
         <Center click={click}>
           <YinYang

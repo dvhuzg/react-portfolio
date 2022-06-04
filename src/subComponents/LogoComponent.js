@@ -13,8 +13,8 @@ const Logo = styled.h1`
   left: 2rem;
   z-index: 3;
 `;
-const LogoComponents = (props) => {
+const LogoComponent = (props) => {
   return <Logo color={props.theme}>DVH</Logo>;
 };
 
-export default LogoComponents;
+export default LogoComponent;
