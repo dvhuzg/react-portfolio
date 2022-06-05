@@ -2,7 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Github } from "../components/AllSvgs";
-const Box = styled.li`
+import { motion } from "framer-motion";
+const Box = styled(motion.li)`
   width: 16rem;
   height: 40vh;
   background-color: ${(props) => props.theme.text};
@@ -73,10 +74,22 @@ const Git = styled(NavLink)`
     }
   }
 `;
+
+const Item = {
+  hidden:{
+    scale:0
+  },show:{
+    scale:1,
+    transition:{
+      type:'spring',
+      duration:0.5
+    }
+  }
+}
 const Card = (props) => {
   const { id, name, description, tags, demo, github } = props.data;
   return (
-    <Box key={id}>
+    <Box key={id} variants={Item}>
       <Title>{name}</Title>
       <Description>{description}</Description>
       <Tags>

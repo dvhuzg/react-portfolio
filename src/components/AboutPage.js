@@ -1,5 +1,5 @@
 import React from "react";
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider,keyframes } from "styled-components";
 import { DarkTheme } from "./Themes";
 import styled from "styled-components";
 import LogoComponent from "../subComponents/LogoComponent";
@@ -7,7 +7,7 @@ import SocialIcons from "../subComponents/SocialIcons";
 import PowerButton from "../subComponents/PowerButton";
 import ParticleComponent from "../subComponents/ParticleComponent";
 import astronaut from "../assets/Images/spaceman.png";
-import { keyframes } from "styled-components";
+import BigTitle from "../subComponents/BigTitle";
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
   width: 100vw;
@@ -76,6 +76,7 @@ const AboutPage = () => {
           I believe everything is an Art when you put your consciousness
           in it. You can connect with me via social links.
         </Main>
+        <BigTitle text='ABOUT' top='10%' left='5%'/>
       </Box>
     </ThemeProvider>
   );
