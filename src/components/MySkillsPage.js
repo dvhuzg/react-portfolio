@@ -8,8 +8,8 @@ import SocialIcons from '../subComponents/SocialIcons'
 import PowerButton from '../subComponents/PowerButton'
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitle";
-
-const Box = styled.div`
+import { motion } from "framer-motion";
+const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
   width: 100vw;
   height: 100vh;
@@ -73,7 +73,11 @@ const Description = styled.div`
 const MySkillsPage = () => {
   return (
     <ThemeProvider theme={LightTheme}>
-      <Box>
+      <Box key="skills"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, transition: { duration: 1 } }}
+          exit={{ opacity: 0, transition: { duration: 0.5 } }}
+        >
         <LogoComponent theme='light'/>
         <SocialIcons theme='light'/>
         <PowerButton/>

@@ -4,6 +4,15 @@ import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
 import styled from "styled-components";
 import { DarkTheme } from "../components/Themes";
 import { motion } from "framer-motion";
+import { keyframes } from "styled-components";
+const rotate = keyframes`
+   from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+`;
 const Icons = styled.div`
   display: flex;
   align-items: center;
@@ -14,6 +23,10 @@ const Icons = styled.div`
   z-index: 3;
   & > *:not(:last-child) {
     margin: 0.5rem 0;
+  }
+  div :hover {
+   transform: scale(0.9);
+   object-fit: cover;
   }
 `;
 
@@ -27,9 +40,9 @@ const SocialIcons = (props) => {
   return (
     <Icons>
       <motion.div
-        initial={{transform:'scale(0)'}}
-        animate={{scale:[0,1,1.5,1]}}
-        transition={{type:'spring',duration:1,delay:1}}
+        initial={{ transform: "scale(0)" }}
+        animate={{ scale: [0, 1, 1.5, 1] }}
+        transition={{ type: "spring", duration: 1, delay: 1 }}
       >
         <NavLink
           target="_blank"
@@ -43,9 +56,9 @@ const SocialIcons = (props) => {
         </NavLink>
       </motion.div>
       <motion.div
-        initial={{transform:'scale(0)'}}
-        animate={{scale:[0,1,1.5,1]}}
-        transition={{type:'spring',duration:1,delay:1.2}}
+        initial={{ transform: "scale(0)" }}
+        animate={{ scale: [0, 1, 1.5, 1] }}
+        transition={{ type: "spring", duration: 1, delay: 1.2 }}
       >
         <NavLink
           target="_blank"
@@ -59,9 +72,9 @@ const SocialIcons = (props) => {
         </NavLink>
       </motion.div>
       <motion.div
-        initial={{transform:'scale(0)'}}
-        animate={{scale:[0,1,1.5,1]}}
-        transition={{type:'spring',duration:1,delay:1.4}}
+        initial={{ transform: "scale(0)" }}
+        animate={{ scale: [0, 1, 1.5, 1] }}
+        transition={{ type: "spring", duration: 1, delay: 1.4 }}
       >
         <NavLink
           target="_blank"
@@ -75,9 +88,9 @@ const SocialIcons = (props) => {
         </NavLink>
       </motion.div>
       <motion.div
-        initial={{transform:'scale(0)'}}
-        animate={{scale:[0,1,1.5,1]}}
-        transition={{type:'spring',duration:1,delay:1.6}}
+        initial={{ transform: "scale(0)" }}
+        animate={{ scale: [0, 1, 1.5, 1] }}
+        transition={{ type: "spring", duration: 1, delay: 1.6 }}
       >
         <NavLink
           target="_blank"
@@ -96,7 +109,7 @@ const SocialIcons = (props) => {
         animate={{
           height: "8rem",
         }}
-        transitionion={{ type: "spring", duration: 1, delay: 0.8 }}
+        transition={{ type: "spring", duration: 1, delay: 1.8 }}
       />
     </Icons>
   );

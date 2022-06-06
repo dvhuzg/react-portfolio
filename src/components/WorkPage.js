@@ -9,7 +9,7 @@ import { Work } from "../data/WorkData";
 import Card from "../subComponents/Card";
 import { YinYang } from "./AllSvgs";
 import BigTitle from "../subComponents/BigTitle";
-const Box = styled.div`
+const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
   height: 400vh;
   position: relative;
@@ -63,7 +63,12 @@ const WorkPage = () => {
   }, []);
   return (
     <ThemeProvider theme={DarkTheme}>
-      <Box>
+      <Box
+        key="skills"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, transition: { duration: 1 } }}
+        exit={{ opacity: 0, transition: { duration: 0.5 } }}
+      >
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />
         <PowerButton />

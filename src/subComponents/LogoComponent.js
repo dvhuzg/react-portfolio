@@ -12,6 +12,7 @@ const Logo = styled.h1`
   top: 2rem;
   left: 2rem;
   z-index: 3;
+  user-select: none;
 `;
 const LogoComponent = (props) => {
   return <Logo color={props.theme}>DVH</Logo>;

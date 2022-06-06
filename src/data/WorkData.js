@@ -1,61 +1,59 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"DoHung Landing Page",
+        description:"It is build on top of the React JS, with styledComponents for smooth scrolling animations.",
+        tags:["react","styledComponents"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://www.facebook.com/dohung.v/",
+        github:"https://github.com/dvhuzg"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"DoHung Landing Page",
+        description:"It is build on top of the React JS, with styledComponents for smooth scrolling animations.",
+        tags:["react","styledComponents"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
-        
+        demo:"https://www.facebook.com/dohung.v/",
+        github:"https://github.com/dvhuzg"
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"DoHung Landing Page",
+        description:"It is build on top of the React JS, with styledComponents for smooth scrolling animations.",
+        tags:["react","styledComponents"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://www.facebook.com/dohung.v/",
+        github:"https://github.com/dvhuzg"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"DoHung Landing Page",
+        description:"It is build on top of the React JS, with styledComponents for smooth scrolling animations.",
+        tags:["react","styledComponents"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
-       
-    },{
+        demo:"https://www.facebook.com/dohung.v/",
+        github:"https://github.com/dvhuzg"
+    },
+    {
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"DoHung Landing Page",
+        description:"It is build on top of the React JS, with styledComponents for smooth scrolling animations.",
+        tags:["react","styledComponents"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
-        
+        demo:"https://www.facebook.com/dohung.v/",
+        github:"https://github.com/dvhuzg"
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"DoHung Landing Page",
+        description:"It is build on top of the React JS, with styledComponents for smooth scrolling animations.",
+        tags:["react","styledComponents"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
-        
+        demo:"https://www.facebook.com/dohung.v/",
+        github:"https://github.com/dvhuzg"
     },
+    
     
   
 ] 

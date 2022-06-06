@@ -12,6 +12,7 @@ import MySkillsPage from "./components/MySkillsPage";
 import { useLocation } from "react-router";
 import { AnimatePresence } from "framer-motion";
 import SoundBar from "./subComponents/SoundBar";
+
 function App() {
   const location = useLocation();
   return (
@@ -19,7 +20,7 @@ function App() {
       <GlobalStyle />
 
       <ThemeProvider theme={LightTheme}>
-      <SoundBar />
+        <SoundBar />
         <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={location.pathname}>
             <Route exact path="/" component={Main} />

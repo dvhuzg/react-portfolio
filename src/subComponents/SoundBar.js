@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import styled, { keyframes } from "styled-components";
-import music from "../assets/audio/u-said-it-v13-1167.mp3";
+import music from "../assets/audio/music.mp3";
 
 const Box = styled.div`
   display: flex;
