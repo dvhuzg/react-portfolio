@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.js": "/dvhuzg/react-portfolio/static/js/main.21e8e8a4.chunk.js",
-    "main.js.map": "/dvhuzg/react-portfolio/static/js/main.21e8e8a4.chunk.js.map",
-    "runtime-main.js": "/dvhuzg/react-portfolio/static/js/runtime-main.e49a2a7d.js",
-    "runtime-main.js.map": "/dvhuzg/react-portfolio/static/js/runtime-main.e49a2a7d.js.map",
-    "static/css/2.679831fc.chunk.css": "/dvhuzg/react-portfolio/static/css/2.679831fc.chunk.css",
-    "static/js/2.03a68c7b.chunk.js": "/dvhuzg/react-portfolio/static/js/2.03a68c7b.chunk.js",
-    "static/js/2.03a68c7b.chunk.js.map": "/dvhuzg/react-portfolio/static/js/2.03a68c7b.chunk.js.map",
-    "index.html": "/dvhuzg/react-portfolio/index.html",
-    "static/css/2.679831fc.chunk.css.map": "/dvhuzg/react-portfolio/static/css/2.679831fc.chunk.css.map",
-    "static/js/2.03a68c7b.chunk.js.LICENSE.txt": "/dvhuzg/react-portfolio/static/js/2.03a68c7b.chunk.js.LICENSE.txt",
-    "static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014.jpg": "/dvhuzg/react-portfolio/static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014.jpg",
-    "static/media/profile-img.5179e446.png": "/dvhuzg/react-portfolio/static/media/profile-img.5179e446.png",
-    "static/media/spaceman.5ec7fcfa.png": "/dvhuzg/react-portfolio/static/media/spaceman.5ec7fcfa.png",
-    "static/media/u-said-it-v13-1167.949cee7e.mp3": "/dvhuzg/react-portfolio/static/media/u-said-it-v13-1167.949cee7e.mp3"
+    "main.js": "/react-portfolio/static/js/main.21e8e8a4.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.21e8e8a4.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.b4aa162e.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b4aa162e.js.map",
+    "static/css/2.679831fc.chunk.css": "/react-portfolio/static/css/2.679831fc.chunk.css",
+    "static/js/2.798a4e6b.chunk.js": "/react-portfolio/static/js/2.798a4e6b.chunk.js",
+    "static/js/2.798a4e6b.chunk.js.map": "/react-portfolio/static/js/2.798a4e6b.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/react-portfolio/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.798a4e6b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.798a4e6b.chunk.js.LICENSE.txt",
+    "static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014.jpg": "/react-portfolio/static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014.jpg",
+    "static/media/profile-img.5179e446.png": "/react-portfolio/static/media/profile-img.5179e446.png",
+    "static/media/spaceman.5ec7fcfa.png": "/react-portfolio/static/media/spaceman.5ec7fcfa.png",
+    "static/media/u-said-it-v13-1167.949cee7e.mp3": "/react-portfolio/static/media/u-said-it-v13-1167.949cee7e.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.e49a2a7d.js",
+    "static/js/runtime-main.b4aa162e.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.03a68c7b.chunk.js",
+    "static/js/2.798a4e6b.chunk.js",
     "static/js/main.21e8e8a4.chunk.js"
   ]
 }
