@@ -5,7 +5,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"5 Jun, 2022",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:"https://www.facebook.com/dohung.v/"
     },
     {
         id:2,
@@ -13,7 +13,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"5 Jun, 2022",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:"https://www.facebook.com/dohung.v/"
     },
     {
         id:3,
@@ -21,7 +21,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"5 Jun, 2022",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:"https://www.facebook.com/dohung.v/"
     },
     {
         id:4,
@@ -29,7 +29,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"5 Jun, 2022",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:"https://www.facebook.com/dohung.v/"
     },
     {
         id:5,
@@ -37,7 +37,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"5 Jun, 2022",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:"https://www.facebook.com/dohung.v/"
     },
     {
         id:6,
@@ -45,7 +45,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"5 Jun, 2022",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:"https://www.facebook.com/dohung.v/"
     },
     {
         id:7,
@@ -53,7 +53,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"5 Jun, 2022",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:"https://www.facebook.com/dohung.v/"
     },
     {
         id:8,
@@ -61,7 +61,7 @@ export const Blogs = [
         tags:["react","styled-components"],
         date:"5 Jun, 2022",
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link:"https://www.facebook.com/dohung.v/"
     },
   
 ] 
