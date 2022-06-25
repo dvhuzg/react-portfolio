@@ -103,16 +103,6 @@ const Center = styled.button`
     display: ${(props) => (props.click ? "none" : "inline-block")};
     padding-top: 1rem;
   }
-  @media only screen and (max-width: 50em) {
-    top: ${(props) => (props.click ? "90%" : "50%")};
-    left: ${(props) => (props.click ? "90%" : "50%")};
-    width: ${(props) => (props.click ? "80px" : "150px")};
-    height: ${(props) => (props.click ? "80px" : "150px")};
-  }
-  @media only screen and (max-width: 30em) {
-    width: ${(props) => (props.click ? "40px" : "150px")};
-    height: ${(props) => (props.click ? "40px" : "150px")};
-  }
 `;
 
 const DarkDiv = styled.div`
@@ -160,7 +150,7 @@ const Main = () => {
               height={click ? 120 : 200}
               fill="currentColor"
             />
-            <span>~Tap~</span>
+            <span>~Tap here~</span>
           </Center>
           <Contact
             target="_blank"

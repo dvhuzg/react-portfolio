@@ -101,7 +101,7 @@ const MySkillsPage = () => {
           <Description>
             <strong>Tools</strong>
             <ul>
-              <li>Fixma</li>
+              <li>Figma</li>
              
             </ul>
           </Description>
