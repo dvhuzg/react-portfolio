@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { PowerBtn } from "../components/AllSvgs";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
+import { mediaQueries } from "../components/Themes";
 const Power = styled.div`
   position: fixed;
   top: 2rem;
@@ -25,6 +26,15 @@ const Power = styled.div`
   & > *:first-child {
     color: inherit;
   }
+  ${mediaQueries(40)`
+   width: 2rem;
+  height: 2rem;
+      svg{
+        width:20px;
+        height:20px;
+      }
+
+  `};
 `;
 function PowerButton() {
   return (

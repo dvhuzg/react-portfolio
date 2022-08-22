@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import { Facebook, Github, Twitter, YouTube, SoundCloud } from "../components/AllSvgs";
 import styled from "styled-components";
-import { DarkTheme } from "../components/Themes";
+import { DarkTheme,mediaQueries } from "../components/Themes";
 import { motion } from "framer-motion";
 import { keyframes } from "styled-components";
 const rotate = keyframes`
@@ -23,7 +23,21 @@ const Icons = styled.div`
   z-index: 3;
   & > *:not(:last-child) {
     margin: 0.5rem 0;
+    ${mediaQueries(20)`
+      margin: 0.3rem 0;
+
+
+  `};
   }
+  ${mediaQueries(40)`
+  left: 1rem;
+
+      svg{
+        width:20px;
+        height:20px
+      }
+
+  `};
 `;
 
 const Line = styled(motion.span)`
@@ -33,6 +47,7 @@ const Line = styled(motion.span)`
     props.color === "dark" ? DarkTheme.text : DarkTheme.body};
 `;
 const SocialIcons = (props) => {
+  const mq = window.matchMedia("(max-width: 40em)").matches;
   return (
     <Icons>
       <motion.div
@@ -102,9 +117,7 @@ const SocialIcons = (props) => {
       <Line
         color={props.theme}
         initial={{ height: 0 }}
-        animate={{
-          height: "8rem",
-        }}
+        animate={{ height: mq ? "5rem" : "8rem" }}
         transition={{ type: "spring", duration: 1, delay: 1.8 }}
       />
     </Icons>

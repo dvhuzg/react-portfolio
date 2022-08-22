@@ -8,7 +8,7 @@ import PowerButton from "../subComponents/PowerButton";
 import { Work } from "../data/WorkData";
 import Card from "../subComponents/Card";
 import CenterImg from '../assets/Images/android-chrome-512x512.png';
-import { YinYang } from "./AllSvgs";
+// import { YinYang } from "./AllSvgs";
 import BigTitle from "../subComponents/BigTitle";
 const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};

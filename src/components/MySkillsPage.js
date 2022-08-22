@@ -9,6 +9,7 @@ import PowerButton from '../subComponents/PowerButton'
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitle";
 import { motion } from "framer-motion";
+import { mediaQueries } from "../components/Themes";
 const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
   width: 100vw;
@@ -17,6 +18,10 @@ const Box = styled(motion.div)`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
+  ${mediaQueries(50)`
+      padding:6rem 0;
+  `};
 `;
 const Main = styled.div`
   border: 2px solid ${(props) => props.theme.text};
@@ -38,6 +43,11 @@ const Main = styled.div`
     color:${(props) => props.theme.body} ;
     background-color: ${(props) => props.theme.text};
   }
+  ${mediaQueries(50)`
+      height:max-content;
+      width:50vw;
+  `};
+  
 `;
 const Title = styled.h2`
   display: flex;

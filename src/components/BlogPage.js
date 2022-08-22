@@ -9,6 +9,8 @@ import BlogComponent from "./BlogComponent";
 import AnchorComponent from "../subComponents/Anchor";
 import BigTitle from "../subComponents/BigTitle";
 import { motion } from "framer-motion";
+import { mediaQueries } from "./Themes";
+
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
   background-size: cover;
@@ -32,6 +34,13 @@ const Center = styled.div`
   justify-content: center;
   align-items: center;
   padding-top: 10rem;
+  ${mediaQueries(30)`
+  div {
+  display:grid;
+  grid-template-columns: 100%;
+ }
+
+ `};
 `;
 
 const Grid = styled.div`
@@ -63,8 +72,7 @@ const BlogPage = () => {
       exit={{
         opacity: 0,
         transition: { duration: 0.5 },
-      }}
-    >
+      }}>
       <Container>
         <LogoComponent />
         <PowerButton />
