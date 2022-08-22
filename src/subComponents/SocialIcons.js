@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
-import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
+import { Facebook, Github, Twitter, YouTube, SoundCloud } from "../components/AllSvgs";
 import styled from "styled-components";
 import { DarkTheme } from "../components/Themes";
 import { motion } from "framer-motion";
@@ -23,10 +23,6 @@ const Icons = styled.div`
   z-index: 3;
   & > *:not(:last-child) {
     margin: 0.5rem 0;
-  }
-  div :hover {
-   transform: scale(0.9);
-   object-fit: cover;
   }
 `;
 
@@ -62,9 +58,9 @@ const SocialIcons = (props) => {
       >
         <NavLink
           target="_blank"
-          to={{ pathname: "https://www.github.com/dvhuzg" }}
+          to={{ pathname: "https://www.soundcloud.com/dohungsc" }}
         >
-          <Twitter
+          <SoundCloud
             width={30}
             height={30}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
@@ -78,7 +74,7 @@ const SocialIcons = (props) => {
       >
         <NavLink
           target="_blank"
-          to={{ pathname: "https://www.github.com/dvhuzg" }}
+          to={{ pathname: "https://www.facebook.com/dohung.v" }}
         >
           <Facebook
             width={30}
@@ -94,7 +90,7 @@ const SocialIcons = (props) => {
       >
         <NavLink
           target="_blank"
-          to={{ pathname: "https://www.github.com/dvhuzg" }}
+          to={{ pathname: "https://www.youtube.com/dvhuzg" }}
         >
           <YouTube
             width={30}

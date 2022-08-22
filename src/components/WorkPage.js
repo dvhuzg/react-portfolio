@@ -7,6 +7,7 @@ import SocialIcons from "../subComponents/SocialIcons";
 import PowerButton from "../subComponents/PowerButton";
 import { Work } from "../data/WorkData";
 import Card from "../subComponents/Card";
+import CenterImg from '../assets/Images/android-chrome-512x512.png';
 import { YinYang } from "./AllSvgs";
 import BigTitle from "../subComponents/BigTitle";
 const Box = styled(motion.div)`
@@ -78,7 +79,8 @@ const WorkPage = () => {
           })}
         </Main>
         <Rotate ref={yinyang}>
-          <YinYang width={80} height={80} fill={DarkTheme.text} />
+          {/* <YinYang width={80} height={80} fill={DarkTheme.text} /> */}
+          <img src={CenterImg} width={80} height={80} alt="" />
         </Rotate>
         <BigTitle text="WORK" top="10%" right="20%" />
       </Box>

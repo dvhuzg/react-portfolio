@@ -4,6 +4,7 @@ import styled, { keyframes } from "styled-components";
 import LogoComponent from "../subComponents/LogoComponent";
 import PowerButton from "../subComponents/PowerButton";
 import SocialIcons from "../subComponents/SocialIcons";
+import CenterImg from '../assets/Images/android-chrome-512x512.png';
 import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
 import { motion } from "framer-motion";
@@ -96,7 +97,7 @@ const Center = styled.button`
   align-items: center;
   transition: all 1s ease;
   & > :first-child {
-    animation: ${rotate} infinite 1.5s linear;
+    animation: ${rotate} infinite 3s linear;
   }
 
   & > :last-child {
@@ -144,12 +145,15 @@ const Main = () => {
           <LogoComponent theme={click ? "dark" : "light"} />
           <SocialIcons theme={click ? "dark" : "light"} />
           <Center click={click}>
-            <YinYang
+            {/* <YinYang
               onClick={() => handleClick()}
               width={click ? 120 : 200}
               height={click ? 120 : 200}
               fill="currentColor"
-            />
+            /> */}
+            <img src={CenterImg} onClick={() => handleClick()}
+              width={click ? 120 : 200}
+              height={click ? 120 : 200} alt="" />
             <span>~Tap here~</span>
           </Center>
           <Contact
