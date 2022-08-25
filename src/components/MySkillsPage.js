@@ -3,9 +3,9 @@ import { ThemeProvider } from "styled-components";
 import { LightTheme } from "./Themes";
 import styled from "styled-components";
 import { Design, Develope } from "./AllSvgs";
-import LogoComponent from '../subComponents/LogoComponent'
-import SocialIcons from '../subComponents/SocialIcons'
-import PowerButton from '../subComponents/PowerButton'
+import LogoComponent from "../subComponents/LogoComponent";
+import SocialIcons from "../subComponents/SocialIcons";
+import PowerButton from "../subComponents/PowerButton";
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitle";
 import { motion } from "framer-motion";
@@ -18,9 +18,10 @@ const Box = styled(motion.div)`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
+
   ${mediaQueries(50)`
-      padding:6rem 0;
+     flex-direction: column;
+     padding:8rem 0;
   `};
 `;
 const Main = styled.div`
@@ -39,27 +40,27 @@ const Main = styled.div`
   justify-content: space-between;
   cursor: pointer;
 
-  &:hover{
-    color:${(props) => props.theme.body} ;
+  &:hover {
+    color: ${(props) => props.theme.body};
     background-color: ${(props) => props.theme.text};
   }
   ${mediaQueries(50)`
       height:max-content;
       width:50vw;
+      margin-top:10px;
   `};
-  
 `;
 const Title = styled.h2`
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: calc(1em+1vw);
-  ${Main}:hover &{
-    &>*{
-      fill: ${props=>props.theme.body};
+  ${Main}:hover & {
+    & > * {
+      fill: ${(props) => props.theme.body};
     }
   }
-  &>*:first-child{
+  & > *:first-child {
     margin-right: 1rem;
   }
 `;
@@ -67,31 +68,30 @@ const Description = styled.div`
   color: ${(props) => props.theme.text};
   font-size: calc(0.6rem + 1vw);
   padding: 0.5rem 0;
-  strong{
+  strong {
     margin-bottom: 1rem;
     text-transform: uppercase;
   }
-  ul,p{
+  ul,
+  p {
     margin-left: 2rem;
   }
-  ${Main}:hover &{
-
-      color: ${props=>props.theme.body};
-    
+  ${Main}:hover & {
+    color: ${(props) => props.theme.body};
   }
 `;
 const MySkillsPage = () => {
   return (
     <ThemeProvider theme={LightTheme}>
-      <Box key="skills"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { duration: 1 } }}
-          exit={{ opacity: 0, transition: { duration: 0.5 } }}
-        >
-        <LogoComponent theme='light'/>
-        <SocialIcons theme='light'/>
-        <PowerButton/>
-        <ParticleComponent theme='light'/>
+      <Box
+        key="skills"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, transition: { duration: 1 } }}
+        exit={{ opacity: 0, transition: { duration: 0.5 } }}>
+        <LogoComponent theme="light" />
+        <SocialIcons theme="light" />
+        <PowerButton />
+        <ParticleComponent theme="light" />
         <Main>
           <Title>
             <Design width={40} height={40} />
@@ -112,7 +112,6 @@ const MySkillsPage = () => {
             <strong>Tools</strong>
             <ul>
               <li>Figma</li>
-             
             </ul>
           </Description>
         </Main>
@@ -138,7 +137,7 @@ const MySkillsPage = () => {
           </Description>
         </Main>
 
-        <BigTitle text='SKILLS' top='80%' right='30%'/>
+        <BigTitle text="SKILLS" top="80%" right="30%" />
       </Box>
     </ThemeProvider>
   );
